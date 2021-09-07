@@ -1,0 +1,26 @@
+.Alive {
+  background-color: green;
+}
+.unknown {
+  background-color: blueviolet;
+}
+.Dead {
+  background-color: gray;
+}
+section {
+  height: auto;
+  width: 250px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-end;
+}
+p {
+  max-width: 15ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
